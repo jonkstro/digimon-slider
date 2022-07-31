@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible">
+    <!-- Bootstrap CSS 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
+    
+    <!-- CSS locais da pasta CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/responsivo.css">
+
+
+    <!-- Link do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+	<title>Pokémon Slider - MapaDev Week</title>
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/logo.png">
+</head>
+<body>
+    <header class="cabecalho">
+        <!-- alt serve para dar acessibilidade ao site, para quem não consegue vê -->
+        <img class="logo" src="imagens/logo.png" alt="logo">
+    </header>
+
+    <main class="pokemon-slider">
+        <button id="btn-voltar" class="btn-seta btn-voltar">
+            <img src="imagens/seta.png" alt="seta de voltar"> 
+        </button>
+
+        <ul class="lista-pokemon">
+            
+            <li class="cartao selecionado fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Agumon</h2>
+                    <p class="vida">HP 100</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="imagens/agumon.png" alt="agumon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim blandit ullamcorper. Pellentesque sed ligula metus. Maecenas leo mauris, tin
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Greymon</h2>
+                    <p class="vida">HP 300</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="imagens/greymon.png" alt="greymon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim blandit ullamcorper. Pellentesque sed ligula metus. Maecenas leo mauris, tin
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Metal-Greymon</h2>
+                    <p class="vida">HP 600</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="imagens/metal-greymon.png" alt="metal-greymon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim blandit ullamcorper. Pellentesque sed ligula metus. Maecenas leo mauris, tin
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Wargreymon</h2>
+                    <p class="vida">HP 900</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="imagens/wargreymon.png" alt="Wargreymon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim blandit ullamcorper. Pellentesque sed ligula metus. Maecenas leo mauris, tin
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Gabumon</h2>
+                    <p class="vida">HP 100</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="imagens/gabumon.png" alt="gabumon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim blandit ullamcorper. Pellentesque sed ligula metus. Maecenas leo mauris, tin
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Garurumon</h2>
+                    <p class="vida">HP 300</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="imagens/garurumon.png" alt="garurumon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim blandit ullamcorper. Pellentesque sed ligula metus. Maecenas leo mauris, tin
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Weregarurumon</h2>
+                    <p class="vida">HP 600</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="imagens/weregarurumon.png" alt="weregarurumon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim blandit ullamcorper. Pellentesque sed ligula metus. Maecenas leo mauris, tin
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Metal-Garurumon</h2>
+                    <p class="vida">HP 900</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="imagens/metal-garurumon.png" alt="metal-garurumon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim blandit ullamcorper. Pellentesque sed ligula metus. Maecenas leo mauris, tin
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Ominimon</h2>
+                    <p class="vida">HP 1500</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src='imagens/ominimon.png' alt="ominimon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim blandit ullamcorper. Pellentesque sed ligula metus. Maecenas leo mauris, tin
+                    </p>
+                </div>
+            </li>
+        </ul>
+
+        <button id="btn-avancar" class="btn-seta">
+            <img src="imagens/seta.png" alt="seta de prosseguir"> 
+        </button>
+
+
+    </main>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+<!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="js/index.js" type="text/javascript"></script>
+
+
+</body>
+</html>

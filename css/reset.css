@@ -1,0 +1,12 @@
+/*========= Arquivo para resetar as configurações do 
+navegador que já vieram pré definidas ==========*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
